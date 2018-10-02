@@ -13,13 +13,13 @@ author: Luan Pena # add your name
 author-img: luan.jpg # add your photo
 about-author: I am Electric Engineer and Programmer, I'm an enthusiastic about Technology and Learning. # add description
 social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
+social-facebook: luan.pena# add your Facebook handle
 social-github: luanspl # add your Github handle
-social-linkedin: https://www.linkedin.com/in/luan-pena-569b1246/ # add your Linkedin handle
+social-linkedin: luan-pena-569b1246/ # add your Linkedin handle
 social-email: luan.gppcom@gmail.com # add your Email address
 
 # Disqus
-discus-identifier: mr-brown # add your discus identifier
+discus-identifier: luan_pena # add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
