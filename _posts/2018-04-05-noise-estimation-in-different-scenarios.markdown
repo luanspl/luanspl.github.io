@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Noise Estimation in Different Scenarios
-date: 2018-15-04 12:50:12 +0300
+date: 2018-04-05 00:00:00 +0300
 description: Gaussian and Non-Gaussian noise estimation in different scenarios. # Add post description (optional)
 img: noise_estimation_title.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)

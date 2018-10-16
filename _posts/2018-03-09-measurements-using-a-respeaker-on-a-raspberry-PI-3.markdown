@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Measurements Using a Respeaker On a Raspberry PI 3
-date: 2018-03-29 07:25:53 +0800
+date: 2018-03-09 00:00:00 +0800
 description: You’ll find this post the project about measurements using a ResPeaker on a Raspberry PI 3 # Add post description (optional)
 img: Respeaker_img_title.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
