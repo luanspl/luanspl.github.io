@@ -1,4 +1,4 @@
-title: Luan Pena Github Page
+title: Luan Pena's Github Page
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -11,7 +11,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Luan Pena # add your name
 author-img: luan.jpg # add your photo
-about-author: I am Electric Engineer and Programmer, I'm an enthusiastic about Technology and Learning. # add description
+about-author: Electric Engineer and Programmer, I'm also an enthusiastic about Technology. # add description
 social-twitter: # add your Twitter handle
 social-facebook: luan.pena # add your Facebook handle
 social-github: luanspl # add your Github handle
