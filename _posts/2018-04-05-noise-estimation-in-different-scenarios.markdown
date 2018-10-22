@@ -112,13 +112,13 @@ mle_stable =
 > mu=3.792169e-05
 > sigma=4.744719e-02
 
-<b>PSD Outside Alhpa-Stable </b>
+<b>PSD Outside Alhpa-Stable</b>
 ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_outside_alpha_stable.png)
 
-<b>PDF Auditorium Alhpa-Stable </b>
+<b>PDF Auditorium Alhpa-Stable</b>
 ![ResPeaker]({{site.baseurl}}/assets/img/estimation/pdf_outside_alpha_stable.png)
 
-<b>Histogram Auditorium Alhpa-Stable </b>
+<b>Histogram Auditorium Alhpa-Stable</b>
 ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_outside_alpha_stable.png)
 
 
