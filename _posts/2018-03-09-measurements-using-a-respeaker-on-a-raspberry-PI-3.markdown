@@ -64,6 +64,3 @@ the measurements were made in the scenario Auditorium NPIT, it is in a quite and
 
 
 
-
-
-

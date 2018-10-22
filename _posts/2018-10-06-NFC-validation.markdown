@@ -29,8 +29,3 @@ The system contains a tag which will be sewn into the seal and inside it will co
 
 
 
-
-
-
-
-
