@@ -25,6 +25,7 @@ Time and Frequency Domain
 
 <h2><b>Normal Estimation</b></h2>
 Histogram Gaussian Estimation
+
 ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_gaussian_auditorium_afternoon_NPITI_gaussian_noise_plot.png)
 
 PSD Gaussian Estimation
@@ -39,13 +40,17 @@ PSD Gaussian Estimation
 mle_stable =
 
 > alpha=1.9872
+
 > beta=0.3390
+
 > gamma=0.0027
+
 > delta=0.0000
 
 <b>Normal distribution parameters:</b>
 
 > mu=0.0000446289
+
 > sigma=0.0039705515
 
 <b>PSD Auditorium Alhpa-Stable </b>
@@ -55,6 +60,7 @@ mle_stable =
 ![ResPeaker]({{site.baseurl}}/assets/img/estimation/pdf_auditorium_alpha_stable.png)
 
 <b>Histogram Auditorium Alhpa-Stable </b>
+
 ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_auditorium_alpha_stable.png)
 
 
@@ -64,9 +70,11 @@ mle_stable =
 <b>Parameters of the Gaussians:</b>
 
 > Mu1: -0.0011067
+
 > Sigma1: 0.0036058
 
 > Mu2: 0.0013198
+
 > Sigma2: 0.0035814
 
 <b>Gaussians of Mix-Gaussian Auditorium:</b>
@@ -104,23 +112,30 @@ PSD Gaussian Estimation
 mle_stable =
 
 > alpha=1.2670
+
 > beta=0.0051
+
 > gamma=0.0167
+
 > delta=0.0002
 
 <b>Normal distribution parameters:</b>
 
 
 > mu=3.792169e-05
+
 > sigma=4.744719e-02
 
 <b>PSD Outside Alhpa-Stable </b>
+
 ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_outside_alpha_stable.png)
 
 <b>PDF Auditorium Alhpa-Stable </b>
+
 ![ResPeaker]({{site.baseurl}}/assets/img/estimation/pdf_outside_alpha_stable.png)
 
 <b>Histogram Auditorium Alhpa-Stable </b>
+
 ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_outside_alpha_stable.png)
 
 
@@ -138,17 +153,17 @@ mle_stable =
 ## HALL NPITI
 
 Histogram
-![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_channels_hall_afternoon_NPITI_noise_plot.png)
+![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_channels_hall_night_NPITI_noise_plot.png)
 
 PSD
-![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_channels_hall_afternoon_NPITI_noise_plot.png)
+![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_channels_hall_night_NPITI_noise_plot.png)
 
 Time and Frequency Domain
-![ResPeaker]({{site.baseurl}}/assets/img/estimation/time_FFT_hall_afternoon_NPITI_noise_plot.png)
+![ResPeaker]({{site.baseurl}}/assets/img/estimation/time_FFT_hall_night_NPITI_noise_plot.png)
 
 <h2><b>Normal Estimation</b></h2>
 Histogram Gaussian Estimation
-![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_gaussian_hall_afternoon_NPITI_gaussian_noise_plot.png)
+![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_gaussian_hall_night_NPITI_gaussian_noise_plot.png)
 
 PSD Gaussian Estimation
-![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_gaussian_hall_afternoon_NPITI_gaussian_noise_plot.png)
+![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_gaussian_hall_night_NPITI_gaussian_noise_plot.png)
