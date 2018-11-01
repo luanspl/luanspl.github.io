@@ -161,9 +161,4 @@ PSD
 Time and Frequency Domain
 ![ResPeaker]({{site.baseurl}}/assets/img/estimation/time_FFT_hall_night_NPITI_noise_plot.png)
 
-<h2><b>Normal Estimation</b></h2>
-Histogram Gaussian Estimation
-![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_gaussian_hall_night_NPITI_gaussian_noise_plot.png)
 
-PSD Gaussian Estimation
-![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_gaussian_hall_night_NPITI_gaussian_noise_plot.png)
