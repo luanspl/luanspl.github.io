@@ -13,9 +13,9 @@ Currently, a big amount of financial negotiations are already made by computers,
 This project is a just simple prediction using Deep Learning. The data used for training and network accuracy testing are a historical data that it was get from Yahoo finance.
 
 
-The neural network was designed to predict the quotation of the day using the past 30 adj. close (the features). However, it does not make sense to judge the network based only on the adj. close price, because many factors can influence the closing value.
+The neural network was designed to predict the quotation of the day using the past 30 adj. close (the features). However, it does not make much sense to judge the network based only on the adj. close price, because many factors can influence the closing value.
 This neural network has 2 internal layers, the first with 10 and the second with 5 neurons, the learning rate of 0.001, with cost function Mean Squared Error, iterating 7000 times. The modification of the biases's layers are constant and the wheight use the normal distribution with 0 mean and 0.1 of standard deviation.
-it was used the libraries Pandas, Tensorflow, numpy and others.
+It was used the libraries Pandas, Tensorflow, numpy and others.
 
 
 ## Code

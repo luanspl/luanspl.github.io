@@ -8,9 +8,10 @@ fig-caption: # Add figcaption (optional)
 tags: [Estimation, Noise, Gaussian, Alhpa-Stable, Mix-Gaussian]
 ---
 
-This project aims to estimate the different noise models, Gaussian and Non-Gaussian models (Gaussian Model, Alpha-Stable Model, Mix-Gaussian Model) in different Scenarios (Auditorium, Outside, Hall).
+This project aims to estimate the different noise models, Gaussian and Non-Gaussian models (Gaussian Model, Alpha-Stable Model, Mix-Gaussian Model) 
+in different Scenarios (Auditorium, Outside, Hall).
 
-these are the results graphs of each scenario, the histogram, Power Spectral Density (PSD), time and frequency domain of the first channel datas and of each kind of estimation.
+these are the results plots of each scenario, the histogram, Power Spectral Density (PSD), time and frequency domain of the first channel datas and of each kind of estimation.
 
 
 ## AUDITORIUM NPITI
