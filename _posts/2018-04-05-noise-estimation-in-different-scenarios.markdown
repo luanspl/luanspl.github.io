@@ -10,6 +10,7 @@ tags: [Estimation, Noise, Gaussian, Alhpa-Stable, Mix-Gaussian]
 
 This project aims to estimate the different noise models, Gaussian and Non-Gaussian models (Gaussian Model, Alpha-Stable Model, Mix-Gaussian Model) in different Scenarios (Auditorium, Outside, Hall).
 
+these are the results graphs of each scenario, the histogram, Power Spectral Density (PSD), time and frequency domain of the first channel datas and of each kind of estimation.
 
 
 ## AUDITORIUM NPITI
@@ -83,7 +84,7 @@ mle_stable =
 <b>Gaussians Sum of Mix-Gaussian Auditorium:</b>
 ![ResPeaker]({{site.baseurl}}/assets/img/estimation/mix_gaussian_auditorium_2.png)
 
-
+we can see that for quite places the normal distribution is better.
 
 ## OUTSIDE NPITI
 
@@ -148,7 +149,7 @@ mle_stable =
 <b>Gaussians Sum of Mix-Gaussian Outside:</b>
 ![ResPeaker]({{site.baseurl}}/assets/img/estimation/mix_gaussian_outside_2.png)
 
-
+we can see that for laud places the normal distribution is worse and the alpha-stable is better.
 
 ## HALL NPITI
 
