@@ -18,7 +18,7 @@ these are the results plots of each scenario, the histogram, Power Spectral Dens
 
 
 
-| <b>Histogram</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_channels_auditorium_afternoon_NPITI_noise_plot.png){:height="252px" width="334px"} | <b>PSD</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_channels_auditorium_afternoon_NPITI_noise_plot.png){:height="252px" width="334px"} | <b>Time and Frequency Domain</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/time_FFT_auditorium_afternoon_NPITI_noise_plot.png){:height="252px" width="334px"} |
+| <b>Histogram</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_channels_auditorium_afternoon_NPITI_noise_plot.png){:height="252px" width="287px"} | <b>PSD</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_channels_auditorium_afternoon_NPITI_noise_plot.png){:height="252px" width="287px"} | <b>Time and Frequency Domain</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/time_FFT_auditorium_afternoon_NPITI_noise_plot.png){:height="252px" width="287px"} |
 
 
 <h2><b>Normal Estimation</b></h2>
@@ -71,7 +71,7 @@ we can see that for quite places the normal distribution is better.
 
 ## OUTSIDE NPITI
 
-| <b>Histogram</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_channels_outside_afternoon_NPITI_noise_plot.png) <b>PSD</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_channels_outside_afternoon_NPITI_noise_plot.png) | <b>Time and Frequency Domain</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/time_FFT_outside_afternoon_NPITI_noise_plot.png) |
+| <b>Histogram</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_channels_outside_afternoon_NPITI_noise_plot.png){:height="252px" width="334px"} | <b>PSD</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_channels_outside_afternoon_NPITI_noise_plot.png){:height="252px" width="287px"} | <b>Time and Frequency Domain</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/time_FFT_outside_afternoon_NPITI_noise_plot.png){:height="252px" width="287px"} |
 
 <h2><b>Normal Estimation</b></h2>
 
@@ -100,7 +100,8 @@ mle_stable =
 
 > sigma=4.744719e-02
 
-| <b>PSD Outside Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_outside_alpha_stable.png) | <b>PDF Auditorium Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/pdf_outside_alpha_stable.png) | <b>Histogram Auditorium Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_outside_alpha_stable.png) |
+
+| <b>PSD Outside Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_outside_alpha_stable.png){:height="252px" width="287px"} | <b>PDF Auditorium Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/pdf_outside_alpha_stable.png){:height="252px" width="287px"} | <b>Histogram Auditorium Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_outside_alpha_stable.png){:height="252px" width="287px"} |
 
 
 <h2><b>Gaussian Mixture Estimation</b></h2>
