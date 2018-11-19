@@ -8,98 +8,27 @@ fig-caption: # Add figcaption (optional)
 tags: [Deep Learning, Finance, Prediction, Python]
 ---
 
-Currently, a big amount of financial negotiations are already made by computers, which take into account several factors (news, market turmoil, past quotations) and try to predict future movements of the assets. These algorithms add liquidity money to the market.
+Currently, a significant amount of financial negotiations are already made by computers, which take into account several factors (news, market turmoil, past quotations) and try to predict future movements of the assets. These algorithms add liquidity money to the market.
 
-This project is a just simple prediction using Deep Learning. The data used for training and network accuracy testing are a historical data that it was get from Yahoo finance.
-
-
-The neural network was designed to predict the quotation of the day using the past 30 adj. close (the features). However, it does not make much sense to judge the network based only on the adj. close price, because many factors can influence the closing value.
-This neural network has 2 internal layers, the first with 10 and the second with 5 neurons, the learning rate of 0.001, with cost function Mean Squared Error, iterating 7000 times. The modification of the biases's layers are constant and the wheight use the normal distribution with 0 mean and 0.1 of standard deviation.
-It was used the libraries Pandas, Tensorflow, numpy and others.
+This project is a just simple prediction using Deep Learning. The data used for training and network accuracy testing are historical data that it was got from Yahoo finance. The libraries used in this project were Pandas, Tensorflow, numpy and others.
 
 
-## Code
+The neural network was designed to predict the quotation of the day using the past 30 adj. close (the features).
+ However, it does not make much sense to judge the network based only on the adj. close price, because many factors can influence the closing value.
+This neural network has two internal layers, the first with 10 and the second with five neurons, the learning rate of 0.001,
+ with cost function Mean Squared Error, iterating 7000 times. The modification of the biases' layers are constant and the weight uses the normal
+ distribution with 0 mean and 0.1 of standard deviation.
+
+
+## Feedfoward Neural Network CODE
+
+The feedforward neural network was the first and simplest type of artificial neural network devised.
+ In this network, the information moves in only one direction, forward, from the input nodes, through the hidden nodes (if any)
+ and to the output nodes. There are no cycles or loops in the network.
 
 {% highlight python %}
 
-
-import datetime as dt
-from datetime import datetime
-from matplotlib import style
-import matplotlib.pyplot as plt
-import pandas as pd
-import numpy as np
-import tensorflow as tf
-
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
-
-import time
-
-#plot the OHLC CHART FINANCES
-#from matplotlib.finance import candlestick_ohlc
-from mpl_finance import candlestick_ohlc
-import matplotlib.dates as mdates
-
-
-
-#data -> is the read data from the file chosen
-#new_data -> is the new data with just the item in the period of time chosen
-
-
-
-
-
-data = pd.read_csv('sp500.csv')  #reading the file for analysis
-start_date = dt.datetime(2010, 1, 1)  # start date of the period of time for analysis
-end_date = dt.datetime(2017, 6, 16)   # end date of the time's period for analysis
-new_data = pd.DataFrame(columns=['Date', 'Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume'])  # Titles
-
-id = 0 #id is the variable to do the adjustiment of the new datas ID
-data['Date'] = pd.to_datetime(data['Date'])
-for i, r in enumerate(data['Date']):
-    if r > start_date and r < end_date:
-        new_data.loc[id] = data.loc[i]
-        id += 1
-
-
-#print(new_data)
-#new_data.plot(x='Date', y='Volume')
-#plt.show()
-
-#Spliting Test, Train
-
-close_data = new_data['Adj Close']
-n_input = 30
-training = 0.8
-n_data = len(close_data)
-x_data=[]
-y_data=[]
-x_train=[]
-y_train=[]
-x_test=[]
-y_test=[]
-
-#  getting the features and labels
-for i in range(n_data-n_input):
-    x_data.append(close_data[i:(i+n_input)])
-    y_data.append(close_data[n_input+i])
-
-n_training = int(n_data*training)
-x_train = x_data[0:n_training]
-y_train = y_data[0:n_training]
-
-x_test = x_data[n_training+1:]
-y_test = y_data[n_training+1:]
-
-x_train = np.array(x_train)
-#y_train = np.array(y_train)
-y_train = np.array(y_train).transpose().reshape((len(y_train),1))
-x_test = np.array(x_test)
-y_test = np.array(y_test).transpose().reshape((len(y_test),1))
-
-
-# REDE NEURAL FEEDFORWARD
+# FEEDFORWARD NEURAL NETWORK
 n_nodes_hl1 = 10
 n_nodes_hl2 = 5
 
@@ -133,6 +62,7 @@ def neural_network_model(data):
     output = tf.add(tf.matmul(l2, output_layer['weight']), output_layer['bias'])
 
     return output
+
 
 
 def train_neural_network(x):
@@ -169,68 +99,37 @@ def train_neural_network(x):
 
         out = sess.run([prediction], feed_dict={x: x_test})
 
-        mse = 0
-        points_pred = 0
-        t = range(len(out[0]))
-
-        for i in t:
-            #print ('CURRENT:  ', x_test[i][0])
-            #print ('PREDICTED:', out[0][i])
-            #print ('EXPECTED: ', y_test[i], '\n')
+{% endhighlight %}
+	
 
 
-            mse = mse + abs((out[0][i] - y_test[i]))
-            if abs((out[0][i] - y_test[i])) < (y_test[i]*0.01):
-                points_pred += 1
 
-        mse = mse / len(out[0])
-        accuracy = (points_pred / len(out[0]))*100
+## Results
 
-        print("MSE: ", mse)
-        print("\n\nAccuracy: ", accuracy, "%")
-
-        plt.plot(t, out[0], color='red', label='Prediction')
-        plt.plot(t, y_test, color='blue', label='Data')
-        plt.xlabel('Date')
-        plt.ylabel('Prices (Close)')
-        plt.show()
-
-def plot_OHLC(ohlc_data):
-    # convert date format for ohlc to operate
-    ohlc_data['Date'] = ohlc_data['Date'].map(mdates.date2num)
-
-    #print(ohlc_data.head(10))
-    ohlc = new_data[['Date', 'Open', 'High', 'Low', 'Close']]
-
-    f1, ax = plt.subplots(figsize=(10, 5))
-
-    # plot the candlesticks
-    candlestick_ohlc(ax, ohlc.values, width=.6, colorup='green', colordown='red')
-    ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
-
-    plt.show()
-
-
-#plot_OHLC(new_data)
-
-train_neural_network(x)
-plot_OHLC(new_data)
-
+{% highlight python %}
 
 #=> prints MSE:  [16.22116169] and Accuracy:  68.98550724637681 %
 
 {% endhighlight %}
 
 
-## Results
-
-
 ![Prediction]({{site.baseurl}}/assets/img/candle.png)
-this is the candle stick of the data
+
+<b>This plot is a candle stick plot of the data</b>
+
+This plot is a style of financial chart used to describe price movements of a security, derivative, or currency.
 
 
 ![Prediction]({{site.baseurl}}/assets/img/prediction.png)
-the blue line is the adj. close and the red line is the prediction of the adj. close
+
+<b>It is the prediction plot. the blue line is the adj. close of the data and the red line is the prediction of the adj. close</b>
 
 
+## Conclusion
+
+Obviously, there is still a lot of work to be done. There are several other trial options.
+ We can also goal the trend of the market which in this case is the best option, or use indicators such as moving average,
+ or even create networks that analyze news and identify whether the market is optimistic or pessimistic.
+ This is just a simple project that uses Tensorflow on Financial Market, but in my opinion, all the possibilities to use Deep Learning on the
+ financial market are fascinating. 
 
