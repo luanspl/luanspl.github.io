@@ -108,23 +108,23 @@ def train_neural_network(x):
 
 {% endhighlight %}
 
-
+<p align="center">
 ![Prediction]({{site.baseurl}}/assets/img/candle.png)
 
 <b>This plot is a candle stick plot of the data</b>
-
+</p>
 This plot is a style of financial chart used to describe price movements of a security, derivative, or currency.
 
-
+<p align="center">
 ![Prediction]({{site.baseurl}}/assets/img/prediction.png)
 
 <b>It is the prediction plot. the blue line is the adj. close of the data and the red line is the prediction of the adj. close</b>
-
+</p>
 
 ## Conclusion
 
 Obviously, there is still a lot of work to be done. There are several other trial options.
- We can also goal the trend of the market which in this case is the best option, or use indicators such as moving average,
+ We can also goal the trend of the market which in this case is the best option, or use indicators such as moving average and use other features,
  or even create networks that analyze news and identify whether the market is optimistic or pessimistic.
  This is just a simple project that uses Tensorflow on Financial Market, but in my opinion, all the possibilities to use Deep Learning on the
  financial market are fascinating. 
