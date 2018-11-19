@@ -24,7 +24,7 @@ these are the results plots of each scenario, the histogram, Power Spectral Dens
 <h2><b>Normal Estimation</b></h2>
 
 
-|Histogram Gaussian Estimation ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_gaussian_auditorium_afternoon_NPITI_gaussian_noise_plot.png){:height="350px" width="350px"} | <b>PSD Gaussian Estimation</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_gaussian_auditorium_afternoon_NPITI_gaussian_noise_plot.png){:height="350px" width="350px"} | 
+|Histogram Gaussian Estimation ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_gaussian_auditorium_afternoon_NPITI_gaussian_noise_plot.png) | <b>PSD Gaussian Estimation</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_gaussian_auditorium_afternoon_NPITI_gaussian_noise_plot.png) | 
 
 <h2><b>Alpha-Stable Estimation</b></h2>
 
