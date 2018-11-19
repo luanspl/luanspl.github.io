@@ -18,7 +18,7 @@ these are the results plots of each scenario, the histogram, Power Spectral Dens
 
 
 
-| <b>Histogram</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_channels_auditorium_afternoon_NPITI_noise_plot.png){:height="350px" width="350px"} | <b>PSD</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_channels_auditorium_afternoon_NPITI_noise_plot.png){:height="350px" width="350px"} | <b>Time and Frequency Domain</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/time_FFT_auditorium_afternoon_NPITI_noise_plot.png){:height="350px" width="350px"} |
+| <b>Histogram</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_channels_auditorium_afternoon_NPITI_noise_plot.png) | <b>PSD</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_channels_auditorium_afternoon_NPITI_noise_plot.png) | <b>Time and Frequency Domain</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/time_FFT_auditorium_afternoon_NPITI_noise_plot.png) |
 
 
 <h2><b>Normal Estimation</b></h2>
