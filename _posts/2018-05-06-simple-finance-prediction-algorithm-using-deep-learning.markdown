@@ -109,16 +109,20 @@ def train_neural_network(x):
 {% endhighlight %}
 
 <p align="center">
-![Prediction]({{site.baseurl}}/assets/img/candle.png)
+
+![Prediction]({{site.baseurl}}/assets/img/candle.png){:height="650px" width="650px"}
 
 <b>This plot is a candle stick plot of the data</b>
+
 </p>
 This plot is a style of financial chart used to describe price movements of a security, derivative, or currency.
 
 <p align="center">
-![Prediction]({{site.baseurl}}/assets/img/prediction.png)
+
+![Prediction]({{site.baseurl}}/assets/img/prediction.png){:height="650px" width="650px"}
 
 <b>It is the prediction plot. the blue line is the adj. close of the data and the red line is the prediction of the adj. close</b>
+
 </p>
 
 ## Conclusion

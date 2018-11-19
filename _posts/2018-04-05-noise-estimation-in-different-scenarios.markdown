@@ -18,19 +18,16 @@ these are the results plots of each scenario, the histogram, Power Spectral Dens
 
 
 
-| <b>Histogram</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_channels_auditorium_afternoon_NPITI_noise_plot.png){:height="250px" width="250px"} | <b>PSD</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_channels_auditorium_afternoon_NPITI_noise_plot.png){:height="250px" width="250px"} | <b>Time and Frequency Domain</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/time_FFT_auditorium_afternoon_NPITI_noise_plot.png){:height="250px" width="250px"} |
+| <b>Histogram</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_channels_auditorium_afternoon_NPITI_noise_plot.png){:height="350px" width="350px"} | <b>PSD</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_channels_auditorium_afternoon_NPITI_noise_plot.png){:height="350px" width="350px"} | <b>Time and Frequency Domain</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/time_FFT_auditorium_afternoon_NPITI_noise_plot.png){:height="350px" width="350px"} |
 
 
 <h2><b>Normal Estimation</b></h2>
-Histogram Gaussian Estimation
 
-![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_gaussian_auditorium_afternoon_NPITI_gaussian_noise_plot.png)
 
-PSD Gaussian Estimation
-![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_gaussian_auditorium_afternoon_NPITI_gaussian_noise_plot.png)
-
+|Histogram Gaussian Estimation ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_gaussian_auditorium_afternoon_NPITI_gaussian_noise_plot.png){:height="350px" width="350px"} | <b>PSD Gaussian Estimation</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_gaussian_auditorium_afternoon_NPITI_gaussian_noise_plot.png){:height="350px" width="350px"} | 
 
 <h2><b>Alpha-Stable Estimation</b></h2>
+
 *closed environment
 
 <b>Alpha stable parameters:</b>
@@ -51,15 +48,8 @@ mle_stable =
 
 > sigma=0.0039705515
 
-<b>PSD Auditorium Alhpa-Stable </b>
-![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_auditorium_alpha_stable.png)
+| <b>PSD Auditorium Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_auditorium_alpha_stable.png) | <b>PDF Auditorium Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/pdf_auditorium_alpha_stable.png) | <b>Histogram Auditorium Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_auditorium_alpha_stable.png) |
 
-<b>PDF Auditorium Alhpa-Stable </b>
-![ResPeaker]({{site.baseurl}}/assets/img/estimation/pdf_auditorium_alpha_stable.png)
-
-<b>Histogram Auditorium Alhpa-Stable </b>
-
-![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_auditorium_alpha_stable.png)
 
 
 <h2><b>Gaussian Mixture Estimation</b></h2>
