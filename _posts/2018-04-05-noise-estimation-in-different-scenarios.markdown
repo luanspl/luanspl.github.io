@@ -18,7 +18,7 @@ these are the results plots of each scenario, the histogram, Power Spectral Dens
 
 <h3><b>Enviroment</b></h3>
 
-| <b>Auditorium NPITI</b> ![ResPeaker]({{site.baseurl}}/assets/img/scenarios/auditorium_1.png){:height="252px" width="100%"} | <b>Auditorium NPITI</b> ![ResPeaker]({{site.baseurl}}/assets/img/scenarios/auditorium_2.png){:height="252px" width="100%"} | 
+| <b>Auditorium NPITI</b> ![ResPeaker]({{site.baseurl}}/assets/img/scenarios/auditorium_1.jpg){:height="252px" width="100%"} | <b>Auditorium NPITI</b> ![ResPeaker]({{site.baseurl}}/assets/img/scenarios/auditorium_2.jpg){:height="252px" width="100%"} | 
 
 <h3><b>Data Analysis</b></h3>
 
@@ -77,7 +77,7 @@ we can see that for quite places the normal distribution is better.
 
 <h3><b>Enviroment</b></h3>
 
-| <b>Outside NPITI</b> ![ResPeaker]({{site.baseurl}}/assets/img/scenarios/outside_1.png){:height="252px" width="100%"} | <b>Outside NPITI</b> ![ResPeaker]({{site.baseurl}}/assets/img/scenarios/outside_2.png){:height="252px" width="100%"} | 
+| <b>Outside NPITI</b> ![ResPeaker]({{site.baseurl}}/assets/img/scenarios/outside_1.jpg){:height="252px" width="100%"} | <b>Outside NPITI</b> ![ResPeaker]({{site.baseurl}}/assets/img/scenarios/outside_2.jpg){:height="252px" width="100%"} | 
 
 <h3><b>Data Analysis</b></h3>
 
@@ -125,7 +125,7 @@ we can see that for laud places the normal distribution is worse and the alpha-s
 
 <h3><b>Enviroment</b></h3>
 
-| <b>Hall NPITI</b> ![ResPeaker]({{site.baseurl}}/assets/img/scenarios/hall_1.png){:height="252px" width="100%"} | <b>Hall NPITI</b> ![ResPeaker]({{site.baseurl}}/assets/img/scenarios/hall_2.png){:height="252px" width="100%"} | 
+| <b>Hall NPITI</b> ![ResPeaker]({{site.baseurl}}/assets/img/scenarios/hall_1.jpg){:height="252px" width="100%"} | <b>Hall NPITI</b> ![ResPeaker]({{site.baseurl}}/assets/img/scenarios/hall_2.jpg){:height="252px" width="100%"} | 
 
 <h3><b>Data Analysis</b></h3>
 
