@@ -134,7 +134,7 @@ Obviously, there is still a lot of work to be done. There are several other tria
  financial market are fascinating. 
 
  
- >>  "Just as electricity transformed almost everything 100 years ago, today I actually have a hard time thinking of an industry that I don't think Artificial Intelligence will transform in the next several years." - Andrew NG
+>>  "Just as electricity transformed almost everything 100 years ago, today I actually have a hard time thinking of an industry that I don't think Artificial Intelligence will transform in the next several years." - Andrew NG
  
  
  
