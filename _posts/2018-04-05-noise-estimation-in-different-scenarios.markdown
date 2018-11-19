@@ -18,7 +18,7 @@ these are the results plots of each scenario, the histogram, Power Spectral Dens
 
 
 
-| <b>Histogram</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_channels_auditorium_afternoon_NPITI_noise_plot.png) | <b>PSD</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_channels_auditorium_afternoon_NPITI_noise_plot.png) | <b>Time and Frequency Domain</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/time_FFT_auditorium_afternoon_NPITI_noise_plot.png) |
+| <b>Histogram</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_channels_auditorium_afternoon_NPITI_noise_plot.png){:height="252px" width="334px"} | <b>PSD</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_channels_auditorium_afternoon_NPITI_noise_plot.png){:height="252px" width="334px"} | <b>Time and Frequency Domain</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/time_FFT_auditorium_afternoon_NPITI_noise_plot.png){:height="252px" width="334px"} |
 
 
 <h2><b>Normal Estimation</b></h2>
@@ -48,7 +48,7 @@ mle_stable =
 
 > sigma=0.0039705515
 
-| <b>PSD Auditorium Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_auditorium_alpha_stable.png) | <b>PDF Auditorium Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/pdf_auditorium_alpha_stable.png) | <b>Histogram Auditorium Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_auditorium_alpha_stable.png) |
+| <b>PSD Auditorium Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_auditorium_alpha_stable.png){:height="252px" width="334px"} | <b>PDF Auditorium Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/pdf_auditorium_alpha_stable.png){:height="252px" width="334px"} | <b>Histogram Auditorium Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_auditorium_alpha_stable.png){:height="252px" width="334px"} |
 
 
 
