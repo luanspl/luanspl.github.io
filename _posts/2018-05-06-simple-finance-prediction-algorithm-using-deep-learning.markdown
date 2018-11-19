@@ -133,3 +133,8 @@ Obviously, there is still a lot of work to be done. There are several other tria
  This is just a simple project that uses Tensorflow on Financial Market, but in my opinion, all the possibilities to use Deep Learning on the
  financial market are fascinating. 
 
+ 
+ >>  "Just as electricity transformed almost everything 100 years ago, today I actually have a hard time thinking of an industry that I don't think Artificial Intelligence will transform in the next several years." - Andrew NG
+ 
+ 
+ 
