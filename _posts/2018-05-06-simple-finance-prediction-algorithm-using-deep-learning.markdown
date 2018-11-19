@@ -63,11 +63,11 @@ def neural_network_model(data):
 
     return output
 
-
+# TRAIN NEURAL NETWORK
 
 def train_neural_network(x):
     prediction = neural_network_model(x)
-    # cost = tf.reduce_mean( tf.nn.softmax_cross_entropy_with_logits(logits=prediction,labels=y) )
+
     cost = tf.reduce_mean(tf.squared_difference(prediction, y))
     optimizer = tf.train.AdamOptimizer(learning_rate=0.001).minimize(cost)
 
@@ -83,7 +83,7 @@ def train_neural_network(x):
                 end = i + batch_size
                 batch_x = np.array(x_train[start:end])
                 batch_y = np.array(y_train[start:end])
-                # if epoch == 0: print 'BATCH_X:', batch_x.shape, batch_x; print 'BATCH_Y:', batch_y.shape, batch_y
+               
 
                 _, c = sess.run([optimizer, cost], feed_dict={x: batch_x,
                                                               y: batch_y})
@@ -92,10 +92,6 @@ def train_neural_network(x):
 
             print('Iteração %4d' % (epoch + 1), 'de', hm_epochs, 'Erro:', epoch_loss)
             epoch += 1
-
-            #correct = tf.equal(tf.argmax(prediction, 1), tf.argmax(y, 1))
-            #accuracy = tf.reduce_mean(tf.cast(correct, 'float'))
-            # print('Accuracy:', accuracy.eval({x: y_test, y:prediction}))
 
         out = sess.run([prediction], feed_dict={x: x_test})
 
