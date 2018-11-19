@@ -24,7 +24,7 @@ these are the results plots of each scenario, the histogram, Power Spectral Dens
 <h2><b>Normal Estimation</b></h2>
 
 
-|Histogram Gaussian Estimation ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_gaussian_auditorium_afternoon_NPITI_gaussian_noise_plot.png) | <b>PSD Gaussian Estimation</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_gaussian_auditorium_afternoon_NPITI_gaussian_noise_plot.png) | 
+| <b>Histogram Gaussian Estimation</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_gaussian_auditorium_afternoon_NPITI_gaussian_noise_plot.png){:height="252px" width="100%"} | <b>PSD Gaussian Estimation</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_gaussian_auditorium_afternoon_NPITI_gaussian_noise_plot.png){:height="252px" width="100%"} | 
 
 <h2><b>Alpha-Stable Estimation</b></h2>
 
@@ -48,7 +48,7 @@ mle_stable =
 
 > sigma=0.0039705515
 
-| <b>PSD Auditorium Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_auditorium_alpha_stable.png){:height="252px" width="334px"} | <b>PDF Auditorium Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/pdf_auditorium_alpha_stable.png){:height="252px" width="334px"} | <b>Histogram Auditorium Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_auditorium_alpha_stable.png){:height="252px" width="334px"} |
+| <b>PSD Auditorium Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_auditorium_alpha_stable.png){:height="252px" width="100%"} | <b>PDF Auditorium Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/pdf_auditorium_alpha_stable.png){:height="252px" width="100%"} | <b>Histogram Auditorium Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_auditorium_alpha_stable.png){:height="252px" width="100%"} |
 
 
 
@@ -65,17 +65,17 @@ mle_stable =
 
 > Sigma2: 0.0035814
 
-| <b>Gaussians of Mix-Gaussian Auditorium:</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/mix_gaussian_auditorium_1.png) | <b>Gaussians Sum of Mix-Gaussian Auditorium:</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/mix_gaussian_auditorium_2.png) | 
+| <b>Gaussians of Mix-Gaussian Auditorium:</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/mix_gaussian_auditorium_1.png){:height="252px" width="100%"} | <b>Gaussians Sum of Mix-Gaussian Auditorium:</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/mix_gaussian_auditorium_2.png){:height="252px" width="100%"} | 
 
 we can see that for quite places the normal distribution is better.
 
 ## OUTSIDE NPITI
 
-| <b>Histogram</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_channels_outside_afternoon_NPITI_noise_plot.png){:height="252px" width="287px"} | <b>PSD</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_channels_outside_afternoon_NPITI_noise_plot.png){:height="252px" width="287px"} | <b>Time and Frequency Domain</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/time_FFT_outside_afternoon_NPITI_noise_plot.png){:height="252px" width="287px"} |
+| <b>Histogram</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_channels_outside_afternoon_NPITI_noise_plot.png){:height="252px" width="100%"} | <b>PSD</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_channels_outside_afternoon_NPITI_noise_plot.png){:height="252px" width="100%"} | <b>Time and Frequency Domain</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/time_FFT_outside_afternoon_NPITI_noise_plot.png){:height="252px" width="100%"} |
 
 <h2><b>Normal Estimation</b></h2>
 
-| <b>Histogram Gaussian Estimation</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_gaussian_outside_afternoon_NPITI_gaussian_noise_plot.png) | <b>PSD Gaussian Estimation</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_gaussian_outside_afternoon_NPITI_gaussian_noise_plot.png) |
+| <b>Histogram Gaussian Estimation</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_gaussian_outside_afternoon_NPITI_gaussian_noise_plot.png){:height="252px" width="100%"} | <b>PSD Gaussian Estimation</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_gaussian_outside_afternoon_NPITI_gaussian_noise_plot.png){:height="252px" width="100%"} |
 
 
 <h2><b>Alpha-Stable Estimation</b></h2>
@@ -101,19 +101,19 @@ mle_stable =
 > sigma=4.744719e-02
 
 
-| <b>PSD Outside Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_outside_alpha_stable.png){:height="252px" width="287px"} | <b>PDF Auditorium Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/pdf_outside_alpha_stable.png){:height="252px" width="287px"} | <b>Histogram Auditorium Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_outside_alpha_stable.png){:height="252px" width="287px"} |
+| <b>PSD Outside Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_outside_alpha_stable.png){:height="252px" width="100%"} | <b>PDF Auditorium Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/pdf_outside_alpha_stable.png){:height="252px" width="100%"} | <b>Histogram Auditorium Alhpa-Stable </b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_outside_alpha_stable.png){:height="252px" width="100%"} |
 
 
 <h2><b>Gaussian Mixture Estimation</b></h2>
 
 
-| <b>Gaussians of Mix-Gaussian Outside:</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/mix_gaussian_outside_1.png) | <b>Gaussians Sum of Mix-Gaussian Outside:</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/mix_gaussian_outside_2.png) |
+| <b>Gaussians of Mix-Gaussian Outside:</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/mix_gaussian_outside_1.png){:height="252px" width="100%"} | <b>Gaussians Sum of Mix-Gaussian Outside:</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/mix_gaussian_outside_2.png){:height="252px" width="100%"} |
 
 we can see that for laud places the normal distribution is worse and the alpha-stable is better.
 
 ## HALL NPITI
 
 
-| <b>Histogram</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_channels_hall_night_NPITI_noise_plot.png) | <b>PSD</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_channels_hall_night_NPITI_noise_plot.png) | <b>Time and Frequency Domain</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/time_FFT_hall_night_NPITI_noise_plot.png) |
+| <b>Histogram</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/histogram_channels_hall_night_NPITI_noise_plot.png){:height="252px" width="100%"} | <b>PSD</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/psd_channels_hall_night_NPITI_noise_plot.png){:height="252px" width="100%"} | <b>Time and Frequency Domain</b> ![ResPeaker]({{site.baseurl}}/assets/img/estimation/time_FFT_hall_night_NPITI_noise_plot.png){:height="252px" width="100%"} |
 
 
