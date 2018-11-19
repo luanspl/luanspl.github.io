@@ -112,12 +112,13 @@ def train_neural_network(x):
 
 ![Prediction]({{site.baseurl}}/assets/img/candle.png){:height="650px" width="650px" style="display: block; margin: 0 auto"}
 
-<b>This plot is a candle stick plot of the data</b>
-
-
 <p align="center">
-This plot is a style of financial chart used to describe price movements of a security, derivative, or currency.
+<b>This plot is a candle stick plot of the data</b>
 </p>
+
+
+This plot is a style of financial chart used to describe price movements of a security, derivative, or currency.
+
 
 
 ![Prediction]({{site.baseurl}}/assets/img/prediction.png){:height="650px" width="650px" style="display: block; margin: 0 auto"}
