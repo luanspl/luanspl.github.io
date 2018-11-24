@@ -26,7 +26,7 @@ the component used was the FSR 402 model is a single-zone Force Sensing Resistor
 ## Code
 
 
-<b>The initialization ADC function: </b>
+<b>Initialization ADC function: </b>
 
 The ADMUX register is used to select reference voltage source, how the result should be stored, analog port channel to be used for conversion.
 
@@ -63,7 +63,7 @@ uint16_t ReadADC(uint8_t ADCchannel)
 {% endhighlight %}
 
 
-<b>Ports initialization </b>
+<b>Initialization of the Ports </b>
 
 The DDR (Data Direction Register ) registers are responsible for determining whether the pins of a particular PORT will behave as input or output.
  Each bit of the DDR register controls the state of its respective pin. So it's setting the Port PC0 (A0) as ADC input and the digital ports PB4(D12) and PB5(D13) as outputs.
@@ -77,7 +77,7 @@ DDRC &= ~(1<<DDC0); //Set PORTC0 as input
 	InitADC();
 {% endhighlight %}
 
-<b>Read ADC result and  </b>
+<b>ADC result and its conditions</b>
 
 this example has two levels  of sensitive touch, it can be set as the first level for a less sensitive touch, it will turn on just one LED, 
  and as the second level for stronger sensitive touch, so the two outputs will turn on, therefore both LEDs will turn light on.
