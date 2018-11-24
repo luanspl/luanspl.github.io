@@ -8,11 +8,11 @@ fig-caption: # Add figcaption (optional)
 tags: [Microcontroller, Atmega328p, Atmel Studio, ADC]
 ---
 
+It is a simple project to use Analog-to-Digital Converter (ADC) on Atmega328p (Arduino UNO), so for this example, it will be used a Sensing Force, 
+ The Sensing Force is optimized for use in human touch control of electronic devices such as automotive electronics, medical systems, and in industrial and robotics applications.
+ This project has only two outputs and the outputs depends on the ADC input value.
 
-This is a simple project to use Analog-to-Digital Converter (ADC) on Atmega328p (Arduino UNO), so for this example it will be used a Sensing Force, 
- it is opmized for use in human touch control of electronic devices such as automotive electronics, medical systems, and in industrial and robotics applications.
-
-The Atmega328p <a href="https://www.sparkfun.com/datasheets/Components/SMD/ATMega328.pdf">DataSheet</a> that will be used to develop the code.
+ The Atmega328p <a href="https://www.sparkfun.com/datasheets/Components/SMD/ATMega328.pdf">DataSheet</a> that will be used to develop the code.
 
 
 ## Component - Sensing Force
@@ -26,7 +26,12 @@ the component used was the FSR 402 model is a single-zone Force Sensing Resistor
 ## Code
 
 
-<b>The initialization ADC function </b>
+<b>The initialization ADC function: </b>
+
+The ADMUX register is used to select reference voltage source, how the result should be stored, analog port channel to be used for conversion.
+
+The ADCSRA register is responsible for enabling ADC, start ADC converting, prescaler selection and interrupt control.
+
 {% highlight C++ %}
 
 void InitADC()
@@ -40,6 +45,9 @@ void InitADC()
 
 
 <b>Read ADC function </b>
+
+Setting the ADSC bit to logic 1 on ADCSRA register tells ADC to start the conversion.
+
 {% highlight C++ %}
 
 uint16_t ReadADC(uint8_t ADCchannel)
@@ -55,7 +63,12 @@ uint16_t ReadADC(uint8_t ADCchannel)
 {% endhighlight %}
 
 
-<b>initialization Ports </b>
+<b>Ports initialization </b>
+
+The DDR (Data Direction Register ) registers are responsible for determining whether the pins of a particular PORT will behave as input or output.
+ Each bit of the DDR register controls the state of its respective pin. So it's setting the Port PC0 (A0) as ADC input and the digital ports PB4(D12) and PB5(D13) as outputs.
+ 
+
 {% highlight C++ %}
 DDRC &= ~(1<<DDC0); //Set PORTC0 as input
 	DDRB |= (1<<DDB5);	//Set PORTB5 as output
@@ -64,16 +77,25 @@ DDRC &= ~(1<<DDC0); //Set PORTC0 as input
 	InitADC();
 {% endhighlight %}
 
-<b>Read ADC function </b>
+<b>Read ADC result and  </b>
+
+this example has two levels  of sensitive touch, it can be set as the first level for a less sensitive touch, it will turn on just one LED, 
+ and as the second level for stronger sensitive touch, so the two outputs will turn on, therefore both LEDs will turn light on.
+
+There are many others applications, for example, the volume of the car sound can increase slowly on the first sensitive touch level,
+ and the volume of the car sound can increase faster on the second sensitive touch level.
+ 
+
 {% highlight C++ %}
+
 adc_res=ReadADC(0)	;
 		
 		if(adc_res > 1022){
-			PORTB |= (1<<PORTB5) ;  // toggle LED
+			PORTB |= (1<<PORTB5) ;  // toggle LED 
 		}
 		if(adc_res > 512){
 			
-			PORTB |= (1<<PORTB4) ; 
+			PORTB |= (1<<PORTB4) ; // // toggle LED
 		}
 
 {% endhighlight %}
