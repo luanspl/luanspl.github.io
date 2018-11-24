@@ -70,7 +70,7 @@ The DDR (Data Direction Register ) registers are responsible for determining whe
  
 
 {% highlight C++ %}
-DDRC &= ~(1<<DDC0); //Set PORTC0 as input
+	DDRC &= ~(1<<DDC0); //Set PORTC0 as input
 	DDRB |= (1<<DDB5);	//Set PORTB5 as output
 	DDRB |= (1<<DDB4);	//Set PORTB4 as output
 	
@@ -88,14 +88,14 @@ There are many others applications, for example, the volume of the car sound can
 
 {% highlight C++ %}
 
-adc_res=ReadADC(0)	;
+adc_res=ReadADC(0);
 		
 		if(adc_res > 1022){
-			PORTB |= (1<<PORTB5) ;  // toggle LED 
+			PORTB |= (1<<PORTB5);  // toggle LED 
 		}
 		if(adc_res > 512){
 			
-			PORTB |= (1<<PORTB4) ; // // toggle LED
+			PORTB |= (1<<PORTB4); // // toggle LED
 		}
 
 {% endhighlight %}
