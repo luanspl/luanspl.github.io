@@ -1,0 +1,87 @@
+---
+layout: post
+title: OFDM experiment using GNURadio and Matlab
+date: 2017-05-22 00:00:00 -0300
+description: Multiplexing and demultiplexing OFDM experiment using GNURadio and Matlab # Add post description (optional)
+img: ofdm_title.jpg # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [Telecommunication, GNURadio, MATLAB, USRP, Multiplexing, Modulation]
+---
+
+
+The efficiency of data transmission has become fundamental in the field of telecommunication,
+ and various types of communication systems have been created over the years, such as the OFDM system, which is responsible for the physical
+ layer efficiency of commercial systems such as Wi-Fi (IEEE 802.11) and WiMAX (IEEE 802.16) Use. The purpose of this paper is to present results
+ and comparisons of performance between different types of OFDM multiplexing properties such as the use of different types of digital modulations, subcarrier
+ characteristics and guard interval. Software-defined radio prototypes are built using GNU Radio, and a real transmission with the USRP platform is performed. 
+
+ 
+## OFDM
+
+ 
+![OFDM]({{site.baseurl}}/assets/img/OFDM/OFDM_carrier.png){:height="450px" width="45%" style="display: block; margin: 0 auto"}
+ 
+
+Over time, several transmission strategies emerged that allowed for greater effectiveness in communication. Among these schemes, OFDM
+ (Orthogonal Frequency Division Multiplexing) was created in 1966 by Robert W. Chang when he published his work on the synthesis of the limited band
+ of orthogonal signals for multi-channel information transmission.
+ 
+ 
+OFDM is used both in local areas (WLAN) and in IEEE 802.11a-g (Wifi) systems, for both metropolitan networks and IEEE 802.16d-e (Wimax) systems too.
+ OFDM is like FDM (Frequency Division Multiplexing) logic, however, the subcarriers are separated into the frequency orthogonally. They are
+ superimposed on each other respecting the property of the orthogonality, therefore making good use of the band and making it much more efficient than the FDM.
+ Orthogonality in the OFDM system means that it is not necessary to use filters to retrieve the transmitted information. However, a greater digital signal
+ processing is required to separate the data of each overlapped subchannel.
+ 
+
+## MATLAB simulations
+
+![OFDM]({{site.baseurl}}/assets/img/OFDM/ofdm_Matlab.png){:height="450px" width="45%" style="display: block; margin: 0 auto"}
+
+The code simulations generate logarithmic graphs that relate BER vs Eb/N0 to compare the bit error rate with the power efficiency for several different
+ situations of the OFDM modulation process. The purpose of the simulations is to compare the theoretical performance graphs calculated with the simulated
+ performance. 
+
+
+based on IEEE 802.11a system specifications.
+
+| Parameters | specifications |
+| FFT Size | 64 |
+| Subcarrier used Size | 52 | 
+| Guard Interval | 16 | 
+| Modulation | 16-QAM/BPSk |
+| Numbers of OFDM symbols transmitted | 10000 |
+
+<h3><b>OFDM without any Guard Interval</b></h3>
+
+| <b>16-QAM</b> ![OFDM]({{site.baseurl}}/assets/img/OFDM/16qam_s_pc.png){:height="252px" width="100%"} | <b>BPSK</b> ![OFDM]({{site.baseurl}}/assets/img/OFDM/bpsk_s_pc.png){:height="252px" width="100%"} |
+
+<h3><b>OFDM with Cyclic Prefix</b></h3>
+
+| <b>16-QAM</b> ![OFDM]({{site.baseurl}}/assets/img/OFDM/16qam_pc.png){:height="252px" width="100%"} | <b>BPSK</b> ![OFDM]({{site.baseurl}}/assets/img/OFDM/bpsk_pc.png){:height="252px" width="100%"} |
+
+<h3><b>OFDM with Zero Padding</b></h3>
+
+| <b>16-QAM</b> ![OFDM]({{site.baseurl}}/assets/img/OFDM/16qam_zp.png){:height="252px" width="100%"} | <b>BPSK</b> ![OFDM]({{site.baseurl}}/assets/img/OFDM/bpsk_zp.png){:height="252px" width="100%"} |
+
+<h3><b>OFDM: AWGN and Rayleigh</b></h3>
+
+| <b>16-QAM</b> ![OFDM]({{site.baseurl}}/assets/img/OFDM/16qam_rayleigh.png){:height="252px" width="100%"} | <b>BPSK</b> ![OFDM]({{site.baseurl}}/assets/img/OFDM/bpsk_rayleigh.png){:height="252px" width="100%"} |
+
+
+## Practical experiment OFDM in a USRP N210 using GNURadio
+
+GNU Radio is a free SDR and Open Source tool and it was developed in C ++ and generates editable and executable code in Python.
+
+Universal Software Radio Peripheral (USRP) is a range of software-defined radios designed and sold by Ettus Research and its parent company, National Instruments. The USRP product family is intended to be a comparatively inexpensive hardware platform for software radio, and is commonly used by research labs, universities, and hobbyists
+
+| <b>USRP N210</b> ![OFDM]({{site.baseurl}}/assets/img/OFDM/ofdm_usrp.jpg){:height="450px" width="45%" style="display: block; margin: 0 auto"} |
+
+The experiment project was used two USRPs, the primary was the transmission datas and the second was the reception of the datas. The configuration of the OFDM multiplexing
+ was: 64 subcarriers FFT, 16 Cyclic prefix and BPSK modulation.
+
+| <b>Transmission</b> ![OFDM]({{site.baseurl}}/assets/img/OFDM/tx_ofdm_usrp.png){:height="252px" width="100%"} | <b>Reception</b> ![OFDM]({{site.baseurl}}/assets/img/OFDM/rx_ofdm_usrp.png){:height="252px" width="100%"} |
+
+
+
+ 
