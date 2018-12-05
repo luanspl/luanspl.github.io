@@ -75,7 +75,7 @@ GNU Radio is a free SDR and Open Source tool and it was developed in C ++ and ge
 
 Universal Software Radio Peripheral (USRP) is a range of software-defined radios designed and sold by Ettus Research and its parent company, National Instruments. The USRP product family is intended to be a comparatively inexpensive hardware platform for software radio, and is commonly used by research labs, universities, and hobbyists
 
-| <b>USRP N210</b> ![OFDM]({{site.baseurl}}/assets/img/OFDM/ofdm_usrp.jpg){:height="550px" width="60%" style="display: block; margin: 0 auto"} |
+| <b>USRP N210</b> ![OFDM]({{site.baseurl}}/assets/img/OFDM/ofdm_usrp.jpg){:height="100%" width="60%" style="display: block; margin: 0 auto"} |
 
 The experiment project was used two USRPs, the primary was the transmission datas and the second was the reception of the datas. The configuration of the OFDM multiplexing
  was: 64 subcarriers FFT, 16 Cyclic prefix and BPSK modulation.
