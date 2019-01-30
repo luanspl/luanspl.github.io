@@ -21,7 +21,7 @@ these are the results plots of each scenario, the histogram, Power Spectral Dens
 
 This environment is the NPITI's auditorium which is a indoor with soundproof. It's a place where the UFRN's teachers and students can lecture, So it's a normal and quite place without large noises.
 
-| <b>Auditorium NPITI</b> ![ResPeaker]({{site.baseurl}}/assets/img/scenarios/auditorium_1.jpg){:height="300px" width="50%" style="display: block; margin: 0 auto"} | 
+| <b>Auditorium NPITI</b> ![ResPeaker]({{site.baseurl}}/assets/img/scenarios/auditorium_1.jpg){:height="380px" width="50%" style="display: block; margin: 0 auto"} | 
 
 <h3><b>Data Analysis</b></h3>
 
