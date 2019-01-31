@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Noise Estimation in Different Scenarios
+title: Estimation of NonGaussian Acoustic Channel for Array of Microphones
 date: 2018-04-05 00:00:00 -0300
 description: Gaussian and Non-Gaussian noise estimation in different scenarios. # Add post description (optional)
 img: noise_estimation_title.png # Add image post (optional)
