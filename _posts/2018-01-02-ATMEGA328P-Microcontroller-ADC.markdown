@@ -1,23 +1,23 @@
 ---
 layout: post
 title: Atmega328p Microcontroller ADC
-date: 2018-07-22 00:00:00 +0500
+date: 2018-01-02 00:00:00 +0500
 description: Simple project about Analog-to-Digital Conversion using Atmega328p # Add post description (optional)
 img: microcontroller_title.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Microcontroller, Atmega328p, Atmel Studio, ADC]
 ---
 
-It is a simple project to use Analog-to-Digital Converter (ADC) on Atmega328p (Arduino UNO), so for this example, it will be used a Sensing Force, 
+It is a simple project using Analog-to-Digital Converter (ADC) on Atmega328p (Arduino UNO), so for this example, it will be used a Sensing Force. 
  The Sensing Force is optimized for use in human touch control of electronic devices such as automotive electronics, medical systems, and in industrial and robotics applications.
- This project has only two outputs and the outputs depends on the ADC input value.
+ This project has only two outputs and the outputs depend on the ADC input value.
 
  The Atmega328p <a href="https://www.sparkfun.com/datasheets/Components/SMD/ATMega328.pdf">DataSheet</a> that will be used to develop the code.
 
 
 ## Component - Sensing Force
 
-the component used was the FSR 402 model is a single-zone Force Sensing Resistor which is a Force Sensing that
+the component used in this project is the FSR 402 model that is a single-zone Force Sensing Resistor which is a Force Sensing that
   provides an inverse change in resistance in response to an increase/decrease in applied force.
 
 ![Microcontroller]({{site.baseurl}}/assets/img/microcontroler_component.jpg){:height="450px" width="45%" style="display: block; margin: 0 auto"}
