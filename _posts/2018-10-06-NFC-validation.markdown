@@ -37,7 +37,8 @@ Changing the dynamic key by authentication serves as an anti-piracy system again
  retailers who receive the clothes perform the authentication process and verify that the authentication key has already been modified, then the
  authentication has already been made previously, so it is necessary to contact the industry which provides the clothes.
  
- ## ATMEGA328p using Near-Field Communication
  
- ![Microcontroller]({{site.baseurl}}/assets/img/atmega328p_nfc.PNG){:height="450px" width="45%" style="display: block; margin: 0 auto"}
+## ATMEGA328p using Near-Field Communication
+ 
+![Microcontroller]({{site.baseurl}}/assets/img/atmega328p_nfc.png){:height="450px" width="45%" style="display: block; margin: 0 auto"}
  
